@@ -5,6 +5,7 @@
 
 auto main() -> int {
 	// This will not compile straight away
+	/*
 	auto g = gdwg::graph<std::string, int>{};
 	g.insert_node("hello");
 	g.insert_node("how");
@@ -32,4 +33,5 @@ auto main() -> int {
 	for (auto const& [from, to, weight] : g) {
 		std::cout << from << " -> " << to << " (weight " << weight << ")\n";
 	}
+	*/
 }
